@@ -4,5 +4,12 @@
   "main": "main.styl",
   "author": "David Mark Clements",
   "license": "",
-  "scripts": {}
+  "scripts": {},
+  "files": [
+    "images",
+    "diagrams.styl",
+    "main.styl",
+    "master-slides.styl",
+    "universe.styl"
+  ]
 }
