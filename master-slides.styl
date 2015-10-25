@@ -82,10 +82,13 @@
     height 200px
     margin-top -10px
   ul, ol
-    margin-top -15px
     flex 0 0 36.25%
     li
       font-size: 26px
+
+.image-bullets > ul, .image-bullets > ol 
+  margin-top: -15px
+
 
 .image-caption-bullets
   img
@@ -118,6 +121,10 @@
 [class*='command-']
   ul, ol
     flex 0 0 45%
+  pre code.language-sh, pre code.language-bash
+    color white
+    span
+      text-shadow none
 
 [class*=code]
   pre
@@ -184,7 +191,6 @@
     flex 0 0 35.5%
   pre:last-of-type
     margin-top 0
-    margin-left -8px
     width 532px
     flex 0 0 15%
 
@@ -232,10 +238,6 @@
     margin-top -65px
 
 
-.command-bullets
-  pre
-    margin-top 35px
-    margin-bottom 10px
 
 .bullets-command-command, .command-command-bullets, .command-command-bullets-command
   pre:first-of-type
@@ -262,16 +264,10 @@
     margin-top 14px
     margin-bottom 1px
   pre:last-of-type
-    margin-top 20px
+    margin-top 10px
 
 .command-command-bullets-command
   ul, ol
     flex 0 0 41%
   pre:last-of-type
     margin-top 0px
-
-
-
-
-
-
